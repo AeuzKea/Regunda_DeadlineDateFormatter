@@ -1,0 +1,15 @@
+import datetime
+
+et = input("Enter event title: ")
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+day = int(input("Enter day: "))
+
+print(" ")
+
+print("Formatted Output:")
+print(f"Event: {et}")
+print(f"Date: {month} {day}, {year}")
+print(f"Year: {year}")
+print(f"Month: {month}")
+print(f"Day: {day}")
